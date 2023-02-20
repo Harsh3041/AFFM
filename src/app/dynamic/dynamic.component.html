@@ -1,0 +1,13 @@
+<!-- Dynamic Components -->
+<div>
+
+  <mat-tab-group>
+    <mat-tab *ngFor="let tab of Tabs">{{tab.value}}</mat-tab>
+  </mat-tab-group>
+    <app-accordion *ngIf="showAccordions">
+      <app-section *ngIf="showSection">
+        <app-input *ngIf="showFields"></app-input>
+      </app-section>
+    </app-accordion>
+</div>
+

@@ -1,0 +1,40 @@
+{
+  "templateType": "TABS",
+  "tabData": [
+    {
+      "tabName": "ABCD",
+      "accordionData": [
+        {
+          "accordionName": "ABCD",
+          "templateType": "ACCORDION",
+          "sectionData": [
+            {
+              "sectionName": "ABCD",
+              "templateType": "SECTION",
+              "Fields": [
+                {
+                  "templateType":"FIELDS",
+                  "fieldData": [
+                    {
+                      "type": "INPUT",
+                      "componentType": "Static",
+                      "selectorName": "app-static"
+                    },
+                    {
+                      "type": "INPUT",
+                      "selectorName": "app-affm"
+                    }
+                  ]
+              }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "staticData": [
+    {"className": "ABCD"},
+    {"className": "ABC"}
+  ]
+}

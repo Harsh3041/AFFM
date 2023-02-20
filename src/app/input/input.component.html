@@ -1,0 +1,14 @@
+<section>
+  <label>AFFM Input:</label>
+  <form [formGroup]="this.dataService.userForm">
+    <input id="affminput" type="text" formControlName="dynamicinput" />
+  </form>
+<br>
+  <div>
+    <button id="jsonbtn" (click)="saveData()">SUBMIT</button>
+  </div>
+<br>
+  <div>
+    HYBRID AFFM DATA :- {{ data | json }}
+  </div>
+</section>
